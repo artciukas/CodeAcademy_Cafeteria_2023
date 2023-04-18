@@ -106,26 +106,7 @@ TableReservation.data_base_of_tabe["family"]["8"] = "Mindaugas, Nauseda, 14:00"
 TableReservation.data_base_of_tabe["family"]["9"] = "Jonas, Hansen, 14:00"
 person.check_reservation()
 
-"""
-# lambda <inputs>: <expression>
-# map(<f>, <iterable>)
 
-tables = {"1" :"free", '2': "delfi",'3': "hedgehog", "4": "free"}
-
-fiters = filter(lambda x: x != "free", tables.values())
-x = lambda : {print(i) for i in fiters}
-
-x()
-
-###################################################
-a = lambda  : [print(i) for i in [1,2,3,4]]
-a()
-# arba
-
-a = lambda x : [print(i) for i in x]
-a([1,2,3,4])
-
-"""
 class Meniu:
 
     meniu = {'breakfast':{'eggs':{'weight':'200g.', 'preparation_time': '10 minutes', 'calories':'500 kcal', 'price':'2.30 eur'}, 
